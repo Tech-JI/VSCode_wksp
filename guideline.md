@@ -14,14 +14,12 @@ Description: Guideline for the vscode wksp.
     - [Intro](#intro)
     - [Themes and Icons](#themes-and-icons)
     - [Markdown Setup](#markdown-setup)
-    - [Latex](#latex)
     - [JOJ Tools](#joj-tools)
     - [C/CPP Extension](#ccpp-extension)
     - [Debug](#debug)
     - [Git Extension](#git-extension)
     - [Key Binding](#key-binding)
   - [Advanced](#advanced)
-    - [Vim (or Neovim)](#vim-or-neovim)
     - [Basic Git](#basic-git)
     - [Solving Merge Conflict](#solving-merge-conflict)
     - [Code Formatting](#code-formatting)
@@ -47,10 +45,6 @@ Choose themes and icons for the vscode.
 ### Markdown Setup
 
 Extension support for markdowna and basic grammar for markdown.
-
-### Latex
-
-Latex Extension for vscode
 
 ### JOJ Tools
 
@@ -81,10 +75,6 @@ Basic Key bingding of vscode including call the terminal, split the window, call
 ## Advanced
 
 Advanced vscode setup.
-
-### Vim (or Neovim)
-
-How to use the vim key maps in vscode
 
 ### Basic Git
 
