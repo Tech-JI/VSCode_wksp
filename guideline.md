@@ -8,25 +8,27 @@ Description: Guideline for the vscode wksp.
 
 ## Menu
 
-- Basic
-  - Intro (10~15 min)
-  - Themes & Icons (3~5 min)
-  - Markdown Setup (20~25 min)
-  - Latex (5 min)
-  - JOJ Tools (10 min)
-  - C/CPP extension (20~25 min)
-  - Debug for Project (20~25 min)
-  - Git Extension (10 min)
-  - Key Binding (10 min)
-- Advanced
-  - Vim
-  - Basic Git
-  - Solving Merge Conflict
-  - Code Formatting
-  - Python Setup
-  - Jupyter Notebook
-  - Live Server
-  - Snippet
+- [VS Code WKSP](#vs-code-wksp)
+  - [Menu](#menu)
+  - [Basic](#basic)
+    - [Intro](#intro)
+    - [Themes and Icons](#themes-and-icons)
+    - [Markdown Setup](#markdown-setup)
+    - [Latex](#latex)
+    - [JOJ Tools](#joj-tools)
+    - [C/CPP Extension](#ccpp-extension)
+    - [Debug](#debug)
+    - [Git Extension](#git-extension)
+    - [Key Binding](#key-binding)
+  - [Advanced](#advanced)
+    - [Vim (or Neovim)](#vim-or-neovim)
+    - [Basic Git](#basic-git)
+    - [Solving Merge Conflict](#solving-merge-conflict)
+    - [Code Formatting](#code-formatting)
+    - [Python Setup](#python-setup)
+    - [Jupyter Notebook](#jupyter-notebook)
+    - [Live Server](#live-server)
+    - [Snippet](#snippet)
 
 ---
 
