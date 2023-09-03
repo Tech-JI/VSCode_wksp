@@ -1,4 +1,4 @@
-# VSC_WKSP
+# VSCode Workshop
 
 The repo for vscode wksp 2023
 
