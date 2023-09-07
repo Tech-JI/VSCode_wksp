@@ -61,9 +61,23 @@ Find more on https://vscodethemes.com/
 
 ## [JOJ Tools](https://github.com/linsyking/vscode-joj-tools)
 
+Extension: JOJ Tools
+
 *python and pip should be installed.*
 
 *Please first make sure your `joj-submittor` and `ji-auth` is the latest version.*
+
+### Not working?
+
+1. Make sure `pip3` is approachable in your shell
+
+2. ```
+   pip3 uninstall ji-auth joj-submitter
+   ```
+
+   Reload VS Code window.
+
+3. Others: commit an issue on [Github repo](https://github.com/linsyking/vscode-joj-tools)!
 
 ## Key Binding
 
