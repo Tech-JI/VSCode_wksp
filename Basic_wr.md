@@ -87,6 +87,18 @@ Find original key bindings: `Ctrl + K`  `Ctrl + S`
 
 Then you can search and change key bindings here.
 
+### Some commonly used:
+
+#### Split windows
+
+Horizontal: `Ctrl+\`
+
+Vertical: `Ctrl+(K+\)`
+
+#### Terminal
+
+Open terminal: `Ctrl+~`
+
 
 
 
