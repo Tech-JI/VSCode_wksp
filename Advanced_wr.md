@@ -78,23 +78,79 @@ git status
 ![](./pic/Git_1.png)
 
 2. `git commit -m`
+
 ![](./pic/Git_2.png)
 
+3. `git push`
 
+![](./pic/Git_3.png)
 
+### Solving Merge Conflict
 
-3. 
+1. `git pull origin master`
 
+![](./pic/Git_4.png)
 
+2. Solve conflict
 
+![](./pic/Git_5.png)
 
+3. push again
 
+### Live Server
 
+Easy-to-use small HTTP server. (You don’t have to type any command!)
 
+Auto reload when documents are changed.
 
+(Very useful in Manuel's ENGR1000J)
 
+### Snippet
 
+Customize your own snippets!
 
+#### Custom Markdown snippets
+
+```
+{
+	"tip":{
+		"prefix": "tip",
+		"body": [
+			":::tip",
+			"$0",
+			":::"
+		]
+	},
+	"warn":{
+		"prefix": "warning",
+		"body": [
+			":::warning",
+			"$0",
+			":::"
+		]
+	},
+	"theo":{
+		"prefix": "theorem",
+		"body": [
+			":::theorem",
+			"$0",
+			":::"
+		]
+	},
+	"ce":{
+		"prefix": "center",
+		"body": [
+			":::center",
+			"$0",
+			":::"
+		]
+	}
+}
+```
+
+#### Math Snippets
+
+You may refer to  `hsnips` folder.
 
 
 
