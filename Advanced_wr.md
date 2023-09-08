@@ -78,7 +78,7 @@ git status
 ![](./pic/Git_1.png)
 
 2. `git commit -m`
-
+![](./pic/Git_2.png)
 
 
 
