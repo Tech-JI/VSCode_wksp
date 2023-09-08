@@ -73,6 +73,18 @@ git status
 
 ### Push code
 
+1. `git add`
+
+![](./pic/Git_1.png)
+
+2. `git commit -m`
+
+
+
+
+
+3. 
+
 
 
 
