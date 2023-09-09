@@ -35,6 +35,10 @@ To enable Auto-Completion, add this to your settings.json
 - Setting of Extensions
 - Basic Cmakelists
 
+  ```cmake
+
+  ```
+
 ## Debug
 
 - Debug Based on the Cmakelists
