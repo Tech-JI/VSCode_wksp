@@ -22,7 +22,7 @@ You can use _ or * to control the text format. E.g.
 
 *Italic*, _Italic_, **Bold**, __Bold__, ***Italic&Bold***, ___Italic&Bold___
 
-You can also mix start and underscore *__Italic&Bold__*, _**Italic&Bold**_, *__Italic&Bold__*, but mixing star and underscore won't take effect *_*Italic&Bold*_*.
+You can also mix start and underscore though it is not recommended. *__Italic&Bold__*, _**Italic&Bold**_, *__Italic&Bold__*, but mixing star and underscore won't take effect *_*Italic&Bold*_*.
 
 ## Hyperlink
 
@@ -132,6 +132,7 @@ OR
 |A|0|???|
 |B|1|!!!|
 
+
 You can set align for the table with :
 
 Left align
@@ -173,7 +174,7 @@ foooo1
 foooo2  
 foooo3  
 
-You can do so by add 2 <Space> at the end of the line.
+You can do so by add 2 \<Space\> at the end of the line.
 
 ## Code
 
@@ -184,9 +185,9 @@ Sometimes you may want add some code in your readme (search on github for exampl
 
 int main()
 {
-        printf("Markdown\n");
-        return 0;
-    }
+  printf("Markdown\n");
+  return 0;
+}
 ```
 
 And you can see the highlight of code.
@@ -195,7 +196,7 @@ And you can see the highlight of code.
 
 Markdown has built Katex support so that we can insert some math formula. e.g. $\displaystyle \sum_{i=0}^{n} i$
 
-OR 
+OR
 
 $$
 \begin{pmatrix}
@@ -204,7 +205,6 @@ $$
 \end{pmatrix}
 $$
 
-
 ## Split
 
 Use `---` to create split.
@@ -212,3 +212,15 @@ Use `---` to create split.
 ---
 
 This is a split line.
+
+## Comments
+
+You can comment the FOO by `<!-- FOO -->` <!-- FOO -->
+
+Demo for multilines
+
+<!--
+Foo1
+Foo2
+Foo3
+-->

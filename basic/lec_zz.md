@@ -10,9 +10,28 @@ Description: Lecuture material for vscode basic zzjc's part.
 
 Extension support for markdowna and basic grammar for markdown.
 
+- Markdown All in One
+- Markdown PDF
+- Markdown Lint
+
+To enable Auto-Completion, add this to your settings.json
+
+```json
+"[markdown]": {
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+    }
+},
+```
+
 ## C/CPP Extension
 
 - C/CPP Extensions
+  - C/C++
+  - C/C++ Themes
+  - C/C++ Extension Pack
 - Setting of Extensions
 - Basic Cmakelists
 
