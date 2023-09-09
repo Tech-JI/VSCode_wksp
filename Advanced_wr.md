@@ -111,40 +111,40 @@ Customize your own snippets!
 
 #### Custom Markdown snippets
 
-```
+```hsnips
 {
-	"tip":{
-		"prefix": "tip",
-		"body": [
-			":::tip",
-			"$0",
-			":::"
-		]
-	},
-	"warn":{
-		"prefix": "warning",
-		"body": [
-			":::warning",
-			"$0",
-			":::"
-		]
-	},
-	"theo":{
-		"prefix": "theorem",
-		"body": [
-			":::theorem",
-			"$0",
-			":::"
-		]
-	},
-	"ce":{
-		"prefix": "center",
-		"body": [
-			":::center",
-			"$0",
-			":::"
-		]
-	}
+ "tip":{
+  "prefix": "tip",
+  "body": [
+   ":::tip",
+   "$0",
+   ":::"
+  ]
+ },
+ "warn":{
+  "prefix": "warning",
+  "body": [
+   ":::warning",
+   "$0",
+   ":::"
+  ]
+ },
+ "theo":{
+  "prefix": "theorem",
+  "body": [
+   ":::theorem",
+   "$0",
+   ":::"
+  ]
+ },
+ "ce":{
+  "prefix": "center",
+  "body": [
+   ":::center",
+   "$0",
+   ":::"
+  ]
+ }
 }
 ```
 

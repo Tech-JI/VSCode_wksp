@@ -71,7 +71,7 @@ Extension: JOJ Tools
 
 1. Make sure `pip3` is approachable in your shell
 
-2. ```
+2. ```bash
    pip3 uninstall ji-auth joj-submitter
    ```
 
