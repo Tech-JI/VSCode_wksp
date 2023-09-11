@@ -33,6 +33,12 @@ To enable Auto-Completion, add this to your settings.json
   - C/C++ Themes
   - C/C++ Extension Pack
 - Setting of Extensions
+  - Autocomplete
+  - Code Folding
+  - C/CPP Standard
+  - Intelli Sense
+  - Inlay Hints
+  - (misc) Tab Completion
 - Basic Cmakelists
 
 ## Debug
