@@ -36,10 +36,35 @@ You can also msys2 to install python, but first plz disable system alias of `pyt
 
 ## Advanced
 
-You can use venv to manage the python environment. You can use pip to install it and use python -m venv path/to/venv and then use path/to/venv/bin/python and path/to/venv/bin/pip.
+You can use venv to manage the python environment. Use pip to install it and use python -m venv path/to/venv and then use path/to/venv/bin/python and path/to/venv/bin/pip.
+
+```powershell
+# Windows
+python -m venv demo
+```
+
+```zsh
+#Macos and Linux
+python3 -m venv demo
+```
+
+Then you need to activate the environment with
+
+```powershell
+demo\Scripts\activate
+```
+
+```zsh
+source demo/bin/activate
+```
+
+You can exit the environment with `deactivate`
 
 You can add `#!/usr/bin/env python3` at the head of the python file s.t. you can run the python file with `./file.py` instead of lengthy `python3 file.py`
+
 
 ---
 
 ## Jupyter Notebook
+
+If you installed python package in vscode, you should have installed it. Just set the intepretor and start to have fun.
