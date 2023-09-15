@@ -6,7 +6,11 @@ Author: Zhaojiacheng Zhou
 
 ## Code Formatting
 
-Clang-format is a recommended formatter for c/cpp code. Here is the [official website](https://clang.llvm.org/docs/ClangFormat.html). Remember the official doc and the **manual** are your best friends. You can use `clang-format --help` to get support.
+Clang-format is a recommended formatter for c/cpp code. You can format the code automatcally when save the file. Here is the [official website](https://clang.llvm.org/docs/ClangFormat.html).
+
+Visit the [web](https://zed0.co.uk/clang-format-configurator/) to configure your own style.
+
+You can install the clang-format by installing clang and use clang-format command to format all code at one time. Remember the official doc and the **manual** are your best friends. You can use `clang-format --help` to get support.
 
 You can use the following command to format all the c/cpp files in the repo:
 
@@ -15,11 +19,6 @@ clang-format -i **/*.c
 #or
 clang-format -i **/*.cpp
 ```
-
-<!-- TODO: VSCode releated  -->
-You can also format the code automatcally when save the file.
-
-Visit the [web](https://zed0.co.uk/clang-format-configurator/) to configure your own style.
 
 <!-- TODO: git hook -->
 You can also get the code formatted when you push the file by setting the git hook.
