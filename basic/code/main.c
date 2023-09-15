@@ -1,8 +1,8 @@
-#include "header.h"
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
+#include "header.h"
 
+int main(int argc, char *argv[]) {
   if (argc != 0) {
   };
   if (argv[0]) {
