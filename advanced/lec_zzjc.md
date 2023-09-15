@@ -20,9 +20,6 @@ clang-format -i **/*.c
 clang-format -i **/*.cpp
 ```
 
-<!-- TODO: git hook -->
-You can also get the code formatted when you push the file by setting the git hook.
-
 ## Python Setup
 
 If you only want to install a python, you can simply follow the guide below:
@@ -41,11 +38,11 @@ brew install python
 
 ### Windows
 
-You can also msys2 to install python, but first plz disable system alias of `python`. Or you can use windos store to install the python.
+If you have wsl2, you can directly install python with your package manager like linux. You can also use msys2 to install python, but first plz disable system alias of `python`. Or you can use windows store to install the python.
 
 ### Advanced
 
-You can use venv to manage the python environment. Use pip to install it and use python -m venv path/to/venv and then use path/to/venv/bin/python and path/to/venv/bin/pip.
+You can use virtualenv `venv` to manage the python environment. It's recommended to create a virtual environment for each python project.
 
 ```powershell
 # Windows
@@ -71,7 +68,20 @@ You can exit the environment with `deactivate`
 
 You can add `#!/usr/bin/env python3` at the head of the python file s.t. you can run the python file with `./file.py` instead of lengthy `python3 file.py`
 
----
+<!-- TESTING: This section is still pending -->
+#### Change Python Version
+
+You can install pyenv to manage the python environment on macos and linux. For windows users, possibly you have to set up the wsl2 first or you can see the [pyenv-win](https://github.com/pyenv-win/pyenv-win)
+
+```zsh
+brew install pyenv
+```
+
+```bash
+curl https://pyenv.run | bash
+```
+
+Then you can use `pyenv` to manage the python version.
 
 ## Jupyter Notebook
 
