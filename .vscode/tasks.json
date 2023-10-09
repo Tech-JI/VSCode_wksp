@@ -2,28 +2,43 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "clean",
+            "type": "shell",
+            "command": "rm -rf build/*",
+            "options": {
+                "cwd": "${workspaceRoot}/basic/code"
+            },
+        },
+        {
             "label": "cmake",
+            "dependsOn": "clean",
             "type": "shell",
             "command": "cmake",
             "args": [
-                "../"
+                "-DCMAKE_BUILD_TYPE=Debug",
+                "-B build"
             ],
             "options": {
-                "cwd": "${workspaceRoot}/basic/code/build"
-            },            
+                "cwd": "${workspaceRoot}/basic/code"
+            },
         },
         {
             "label": "make",
+            "dependsOn": "cmake",
             "type": "shell",
             "command": "make",
             "args": [],
             "options": {
                 "cwd": "${workspaceRoot}/basic/code/build"
-            }, 
+            },
         },
         {
             "label": "build",
-            "dependsOn":["cmake", "make"]
+            "dependsOn": [
+                "clean",
+                "cmake",
+                "make"
+            ]
         },
     ],
 }
