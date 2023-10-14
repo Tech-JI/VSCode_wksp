@@ -2,7 +2,7 @@
 
 Introduction: Basic usage of VS Code; commonly used extensions; C/C++ environment setup.
 
-**Claim: We're not professional VS Code users (no deep research on it), and this workshop would only contain basic usage of VS Code.** Advanced VS Code usage could be learned by reading the official documents.
+**Claim: We're not professional VS Code users (no deep research on it), and this workshop would only contain basic usage of VS Code.** Advanced VS Code usage could be learned by reading the official documents or in the workshop which will be held in the future.
 
 ## Installation
 
