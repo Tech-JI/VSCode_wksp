@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "cmake",
+            "dependsOn": "clean",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-DCMAKE_BUILD_TYPE=Debug",
+                "-B",
+                "build"
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}/code"
+            }
+        },
+        {
+            "label": "make",
+            "dependsOn": "cmake",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "build"
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}/code"
+            }
+        },
+        {
+            "label": "build",
+            "dependsOn": [
+                "cmake",
+                "make"
+            ]
+        }
+    ]
+}
