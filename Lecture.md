@@ -99,6 +99,40 @@ Vertical: `Ctrl+(K+\)`
 
 Open terminal: `Ctrl+~`
 
+## Useful Extensions
+
++ Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
+
+![](./pic/chinese.png)
+
++ GitHub Copilot
+
+![](./pic/copilot.png)
+
++ HyperSnips for Math
+
+You may refer to the [Usage](https://github.com/OrangeX4/hsnips#usage) on official website and files in this repo(`./hsnips`).
+
+![](./pic/math.png)
+
++ LaTex Workshop
+
+You may refer to guidence in this [repo](https://github.com/Hydraallen/Latex-vscode).
+
+![](./pic/latex.png)
+
++ Live server -> very usefull in vg100
+
+![](./pic/live.png)
+
++ Path Autocomplete & Path Intellisense
+
+![](./pic/path.png)
+
++ wakatime
+
+![](./pic/waka.png)
+
 ## Markdown Setup
 
 Extension support for markdowna and basic grammar for markdown.
