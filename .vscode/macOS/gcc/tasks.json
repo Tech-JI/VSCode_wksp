@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "gcc-13",
+            "args": [
+                "-g",
+                "hello.c",
+                "main.c",
+                "sum.c",
+                // "*.c",//add all c file at one time
+                "-o",
+                "test"
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}/code"
+            }
+        }
+    ]
+}

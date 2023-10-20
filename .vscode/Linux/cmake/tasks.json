@@ -3,7 +3,6 @@
     "tasks": [
         {
             "label": "cmake",
-            "dependsOn": "clean",
             "type": "shell",
             "command": "cmake",
             "args": [
