@@ -17,5 +17,5 @@
             "MIMode": "lldb",
             "preLaunchTask": "build"
         }
-    ],
+    ]
 }

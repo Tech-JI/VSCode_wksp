@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/code/build/test",
+            "program": "${workspaceRoot}/code/test.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -17,5 +17,5 @@
             "MIMode": "gdb",
             "preLaunchTask": "build"
         }
-    ],
+    ]
 }
