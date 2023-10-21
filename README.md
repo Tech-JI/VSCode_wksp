@@ -1,6 +1,6 @@
 # VSCode Workshop
 
-The repo is for VSCode workshop 2023.
+The [repo](https://github.com/TechJI-2023/VSCode_wksp) is for VSCode workshop 2023.
 
 ## Introduction
 
@@ -12,7 +12,7 @@ The repo is for VSCode workshop 2023.
 
 ## Previous Setup
 
-We stongly recommend you clone this repo and install [Visual Studio Code](https://code.visualstudio.com/Download) in advance.
+We stongly recommend you clone this repo/[download release package](https://github.com/TechJI-2023/VSCode_wksp/releases) and install [Visual Studio Code](https://code.visualstudio.com/Download) in advance.
 
 ## Lecture
 
