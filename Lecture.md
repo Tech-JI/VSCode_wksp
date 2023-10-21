@@ -170,10 +170,17 @@ To enable Auto-Completion, add this to your settings.json
 
 ## Debug
 
-- Debug Based on the Cmakelists
 - Debug by modifying json file
+  - Write manually
+  - C/C++: Add Debug Configuration
+- Debug Based on the Cmakelists
 
 ## Git Extension
 
 - Git Lens
 - How to use the built-in git extension
+
+## Format
+
+- Format On Save
+- Format Style
