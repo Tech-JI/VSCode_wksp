@@ -185,4 +185,5 @@ To enable Auto-Completion, add this to your settings.json
 
 - Format On Save
 - Format Style
+
 - Visit the [web](https://zed0.co.uk/clang-format-configurator/) to configure your own style
