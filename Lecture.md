@@ -138,6 +138,7 @@ You may refer to guidence in this [repo](https://github.com/Hydraallen/Latex-vsc
 Extension support for markdowna and basic grammar for markdown.
 
 - Markdown All in One
+
 - Markdown PDF
 - Markdown Lint
 
